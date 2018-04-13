@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#1b1b1b</color>
+    <color name="color_black_down">#494949</color>
+    <color name="color_blue">#4c70e9</color>
+    <color name="color_fengexian">#efefef</color>
+    <color name="color_green">#4cf52e</color>
+    <color name="color_orange">#f7a43e</color>
+    <color name="color_red">#e94646</color>
+    <color name="color_white">#FFf</color>
+    <color name="color_yellow">#f1e653</color>
+    <string name="app_name">QSFUtils</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_loading">加载中...</string>
+    <string name="dialog_login">正在登录</string>
+    <string name="dialog_register">注册中...</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="notifyTitle">提示</string>
+    <string name="setting">设置</string>
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    <style name="ItemImageStytle">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="ItemLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="ItemRightBlackGo">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:src">@drawable/right_go_back_black</item>
+    </style>
+    <style name="ItemTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">#111</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="PopWindowAnimStyle">
+        <item name="android:windowShowAnimation">@anim/dialog_enter</item>
+        <!-- 指定显示的动画xml  -->
+        <item name="android:windowHideAnimation">@anim/dialog_exit</item>
+        <!-- 指定消失的动画xml  -->
+    </style>
+    <style name="TitleLeftBlackGoBack">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:src">@drawable/left_go_back_black</item>
+    </style>
+    <style name="TitleLeftGoBack">
+        <item name="android:layout_width">45dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:src">@drawable/go_back_white</item>
+    </style>
+    <style name="TitleRightBlackGoBack">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:src">@drawable/right_go_back_black</item>
+    </style>
+    <style name="TitleRightGoBack">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:src">@drawable/right_go_back_white</item>
+    </style>
+    <style name="Title_RelativeLayout_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="fen_ge_xian_heng_05dp_cc">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#efefef</item>
+    </style>
+    <style name="fen_ge_xian_heng_10dp_cc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:background">#efefef</item>
+    </style>
+    <style name="fen_ge_xian_heng_1dp_cc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#efefef</item>
+    </style>
+    <style name="fen_ge_xian_heng_20dp_cc">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">#efefef</item>
+    </style>
+    <style name="fen_ge_xian_shu_1dp_cc">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#efefef</item>
+    </style>
+</resources>
