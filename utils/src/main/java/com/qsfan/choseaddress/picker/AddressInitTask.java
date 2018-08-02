@@ -13,7 +13,6 @@ import cn.qqtheme.framework.picker.AddressPicker;
 
 /**
  * 获取地址数据并显示地址选择器
- *
  */
 public class AddressInitTask extends AsyncTask<String, Void, ArrayList<AddressPicker.Province>> {
     private Activity activity;
@@ -21,7 +20,7 @@ public class AddressInitTask extends AsyncTask<String, Void, ArrayList<AddressPi
     private String selectedProvince = "", selectedCity = "", selectedCounty = "";
     private boolean hideCounty = false;
 
-    private String assetPath;
+    private String assetPath = "city.json";
 
     /**
      * 初始化为不显示区县的模式
@@ -44,7 +43,7 @@ public class AddressInitTask extends AsyncTask<String, Void, ArrayList<AddressPi
      * 初始化数据
      *
      * @param activity
-     * @param assetPath     数据源city.json
+     * @param assetPath 数据源city.json
      */
     public AddressInitTask(Activity activity, String assetPath) {
         this.activity = activity;
