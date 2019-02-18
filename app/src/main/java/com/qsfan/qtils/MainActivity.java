@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         bt_rxjava_request.setOnClickListener(this);
         bt_ret_test = (Button) findViewById(R.id.bt_ret_test);
         bt_ret_test.setOnClickListener(this);
+        
     }
 
     @Override
